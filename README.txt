@@ -31,3 +31,22 @@ metodos
 
     um metodo é um mebro que implementa um computação ou ação que pode ser executada por um objeto ou classe
     os metodos podem ter uma lista de parametros, que representam valores ou referencias de variaveis passados para o metodo, e um tipo de retorno, que especifica o tpo de valor calculado e retornado pelo metodo.
+
+structs
+     Como as classe, as structs são estruturas de dados que podem conter membros de dados e membros de ação, mas, diferentmente das classses, as structs são tipos de valor e não requerem alocação de heap
+
+        heap
+        O Heap, ou área de alocação dinâmica, é um espaço reservado para variáveis e dados criados durante a execução do programa (runtime). Vamos dizer que o Heap é a memória global do programa.
+
+        stack
+        Já a pilha de funções (stack) é uma área da memória que aloca dados/variáveis ou ponteiros quando uma função é chamada e desalocada quando a função termina. Podemos dizer então que representa a memória local àquela função
+
+    Uma variável de um tipo de struct armazena diretamente os dados da estrutura, enquanto uma varavel de um tipo de classe armazena uma instância a um objeto alocado na memória
+
+    structs não aceitam herança determinada pelo desenvolvedor
+
+    são uteis para pequenas estruturas de dados que possuem semêntica de valor: números complexos, pontos em um sstema de coordenadas ou pares de uma chave-valor em um dicionario são bons exemplos de utilização
+
+    o uso de structs em vez de classe para pequenas estrutura de dados pode fazer uma grande diferença no numero de alozações na memoria
+
+    
